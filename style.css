@@ -37,6 +37,8 @@ textarea{
 }
 
 .hour {
+  display: flex;
+  flex-direction: row;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -71,4 +73,10 @@ textarea{
 }
 .table {
   color: blue;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
